@@ -72,5 +72,6 @@ function resetSave(){if(confirm('Reset all Street Racer progress?')){localStorag
 addEventListener('beforeinstallprompt',e=>{e.preventDefault();installPrompt=e;$('installBtn').style.display='inline-block'});
 async function installApp(){if(!installPrompt)return toast('Use your browser menu to install');installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$('installBtn').style.display='none'}
 persist();
+if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(()=>{});
 </script>
 </body></html>
