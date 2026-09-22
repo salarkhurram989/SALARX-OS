@@ -1,10 +1,16 @@
 {
-  "name":"SALARX Street Racer",
-  "short_name":"Street Racer",
-  "start_url":"./",
+  "name":"STREET RACER — SALARX RACING",
+  "short_name":"STREET RACER",
+  "id":"./",
+  "start_url":"./?v=2",
+  "scope":"./",
   "display":"standalone",
+  "orientation":"any",
   "background_color":"#050608",
-  "theme_color":"#080a0d",
-  "description":"Mobile-first arcade street racing by Salar.",
-  "icons":[]
+  "theme_color":"#090b0f",
+  "description":"A polished lightweight arcade street racing game by SALARX RACING.",
+  "icons":[
+    {"src":"icon-192.svg","sizes":"192x192","type":"image/svg+xml","purpose":"any maskable"},
+    {"src":"icon-512.svg","sizes":"512x512","type":"image/svg+xml","purpose":"any maskable"}
+  ]
 }
