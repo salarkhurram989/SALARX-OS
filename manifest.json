@@ -1,0 +1,10 @@
+{
+  "name":"SALARX Street Racer",
+  "short_name":"Street Racer",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#050608",
+  "theme_color":"#080a0d",
+  "description":"Mobile-first arcade street racing by Salar.",
+  "icons":[]
+}
